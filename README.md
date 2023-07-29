@@ -15,8 +15,7 @@ To get started with the app, follow the instructions below to set up and run the
 
 Clone the repository to your local machine:
 ```
-git clone <repository_url>
-cd <repository_name>
+gh repo clone sonalvar/todo_app
 ```
 
 ### Create a virtual environment (optional but recommended):
