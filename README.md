@@ -47,13 +47,13 @@ docker-compose up
 The app will be accessible at: http://127.0.0.1:8090
 
 ## API Endpoints
-**GET /todo/list**: Get a list of all ToDo items.
-**GET /todo/list/completed**: Get a list of completed ToDo items.
-**GET /todo/list/deleted**: Get a list of deleted ToDo items.
-**POST /todo**: Create a new ToDo item. Send the title as a JSON payload.
-**GET /todo/<int:todo_id>**: Get a specific ToDo item by ID.
-**PUT /todo/<int:todo_id>**: Update a specific ToDo item by ID. Send the title (optional), completed (optional), and deleted (optional) as a JSON payload.
-**DELETE /todo/<int:todo_id>**: Delete a specific ToDo item by ID.
+- **GET /todo/list**: Get a list of all ToDo items.
+- **GET /todo/list/completed**: Get a list of completed ToDo items.
+- **GET /todo/list/deleted**: Get a list of deleted ToDo items.
+- **POST /todo**: Create a new ToDo item. Send the title as a JSON payload.
+- **GET /todo/<int:todo_id>**: Get a specific ToDo item by ID.
+- **PUT /todo/<int:todo_id>**: Update a specific ToDo item by ID. Send the title (optional), completed (optional), and deleted (optional) as a JSON payload.
+- **DELETE /todo/<int:todo_id>**: Delete a specific ToDo item by ID.
 
 ## Running Tests
 To run the unit tests for the app, use the following command:
